@@ -11,7 +11,7 @@ Android
 https://play.google.com/store/apps/details?id=com.embarcadero.HornetUFCDCS
 
 iOS
-Coming Soon
+https://apps.apple.com/us/app/hornet-ufc-dcs/id1604694496#?platform=ipad
 
 2- Install DCS-BIOS (Flightpanel DCS-BIOS fork)
 https://github.com/DCSFlightpanels/dcs-bios

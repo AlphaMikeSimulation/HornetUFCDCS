@@ -40,3 +40,11 @@ Solution: Close your app completely and open it again, make sure the IP field in
 *I can send commands to DCS but the app is no receiving information
 
 Solution: Check the IP in the Settings of the HORNETUFCDCSAPP.exe running in your PC, also make sure your DCS-BIOS is installed correctly and the export.lua is correct
+
+# Credits
+
+Flightpanel DCS-BIOS fork https://github.com/DCSFlightpanels/dcs-bios
+
+jboecker / python-dcs-bios-example https://github.com/jboecker/python-dcs-bios-example
+ 
+emcek / dcspy https://github.com/emcek/dcspy

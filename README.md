@@ -34,7 +34,9 @@ iOS https://apps.apple.com/us/app/hornet-ufc-dcs/id1604694496#?platform=ipad
 # Common Errors
 
 *Error Socket 53 " Connection Reset by Peer"
+
 Solution: Close your app completely and open it again, make sure the IP field in the app settings is filled out correctly and with the correct IP of the computer running DCS
 
 *I can send commands to DCS but the app is no receiving information
+
 Solution: Check the IP in the Settings of the HORNETUFCDCSAPP.exe running in your PC, also make sure your DCS-BIOS is installed correctly and the export.lua is correct

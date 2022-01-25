@@ -15,9 +15,11 @@ iOS https://apps.apple.com/us/app/hornet-ufc-dcs/id1604694496#?platform=ipad
 
 3- Unzip The Content somewhere in your hard drive( Desktop Or C Drive For Example)
 
-4- Copy the DCS-BIOS Folder yo your Scripts folder ( C:\Users\USERNAME\Saved Games\DCS.openbeta\Scripts)
+4- Copy the DCS-BIOS Folder yo your Scripts folder 	***C:\Users\USERNAME\Saved Games\DCS.openbeta\Scripts***
 
-5- Edit your export.lua file and add this to the end of the file:    dofile(lfs.writedir()..[[Scripts\DCS-BIOS\BIOS.lua]])
+5- Edit your export.lua file and add this to the end of the file: ***dofile(lfs.writedir()..[[Scripts\DCS-BIOS\BIOS.lua]])***
+
+6- Make Sure your firewall is not blocking the HornetUFCDCSAppServer.exe app or the LAN comunication (Best temporarily deactivate your firewall to test)
 
 6- Open the HornetUFCDCSAppServer.exe and go to settings and inpiut the IP Address of the Tablet or Phone that you are using for the HORNET UFC DCS App
 
@@ -32,6 +34,7 @@ iOS https://apps.apple.com/us/app/hornet-ufc-dcs/id1604694496#?platform=ipad
 11- Now you can control the UFC from your phone or tablet, ENJOY!
 
 # Common Errors
+Before doing anything else ***CHECK FIREWALL***
 
 *Error Socket 53 " Connection Reset by Peer"
 
@@ -39,7 +42,7 @@ Solution: Close your app completely and open it again, make sure the IP field in
 
 *I can send commands to DCS but the app is no receiving information
 
-Solution: Check the IP in the Settings of the HORNETUFCDCSAPP.exe running in your PC, also make sure your DCS-BIOS is installed correctly and the export.lua is correct
+Solution: Check the IP in the Settings of the HORNETUFCDCSAPP.exe running in your PC, also make sure your DCS-BIOS is installed correctly and the export.lua is correct and check firewall in your computer
 
 # Credits
 
